@@ -1,0 +1,129 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-31T22:38:06.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3768000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ListStepDefination.beforeStartMethod()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "2 White Background Change",
+        "description": "",
+        "id": "listpage-background-color-functionality-validation;2-white-background-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4094000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The \"\u003csetWhiteBackground\u003e\" button exists in \"SetWhiteBackground\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003csetWhiteBackground\u003e\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"SetWhiteBackground\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.ListStepDefination.the_button_exists_in_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2117000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the \"\u003csetWhiteBackground\u003e\" button in the \"SetWhiteBackground\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003csetWhiteBackground\u003e\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"SetWhiteBackground\"",
+                  "offset": 52
+                }
+              ],
+              "location": "steps.ListStepDefination.i_click_on_the_button_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2253000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The background color will change to \"\u003cwhite\u003e\" in the \"WhiteBackground\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cwhite\u003e\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"WhiteBackground\"",
+                  "offset": 53
+                }
+              ],
+              "location": "steps.ListStepDefination.the_background_color_will_change_to_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ListColourFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Listpage background color functionality validation",
+    "description": "",
+    "id": "listpage-background-color-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/List.feature",
+    "tags": [
+      {
+        "name": "@ListColourFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  }
+]
